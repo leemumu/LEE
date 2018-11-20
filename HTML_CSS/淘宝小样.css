@@ -1,0 +1,299 @@
+*
+	{
+		margin: 0；
+		padding: 0;
+	}
+.wrapper{
+	color:transparent;
+}
+.wrapper1{
+    height: 30px;
+    width:100%;
+    border-bottom: 1px solid;
+    background-color: #cdcdcd;
+    z-index: 10000;
+
+}
+.box1
+{
+	margin: 0 auto;
+	height:30px;
+	width: 750px;
+	background-color: #eee;
+}
+ul
+{
+	list-style-type: none;
+}
+
+ul.box1-1 li>select
+{
+   font-size: 8px;
+   border: none ;
+   background-color:#ff4;
+}
+li
+{
+	 float: left;
+	font-size: 8px;
+	margin: 8.6px 2px;
+}
+a{
+	text-decoration: none;
+	color:#424242;
+	display: inline-block;
+}
+ a:hover{
+	color: #f40;
+	cursor: pointer;
+
+}
+ul.box1-2
+{ margin-left: 400px;
+   right:0;
+}
+
+
+/*
+ 第二行
+ */
+ .wrapper2{
+    height: 105px;
+    width:100%;
+    background-color: #fff;
+    z-index: 10000;
+    margin-bottom: -20px
+
+}
+.box2
+{
+	margin: 0 auto;
+	height:100px;
+	width: 750px;
+	background-color: #fff;
+}
+
+.wrapper2 .box2  .box2-1{
+	float: left;
+	padding-top:100px;
+	height: 0;
+	width:155px;
+	background-image: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+    background-size:100px 50px ;
+    background-repeat: no-repeat;
+    background-position: 50%  50%;
+    overflow:hidden;
+    margin-right:90px;
+}
+.wrapper2 .box2  .box2-2  .box2-21{
+	padding-top: 15px;
+}
+.wrapper2 .box2 .box2-2 .box2-21 .box2-211
+{
+	border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+	background-color:#f40;
+	color:#fff;
+	font-size: 10px ;
+}
+.wrapper2 .box2 .box2-2 .box2-21 .box2-212
+{
+	color:#f40;
+	font-size: 10px ;
+
+}
+
+.wrapper2 .box2 .box2-2 .box2-21 :hover
+{
+	border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+	background-color:#fcc;
+	font-size: 10px ;
+}
+.wrapper2 .box2 .box2-2 .box2-22{
+    float: left;
+    height:30px;
+    line-height: 30px;
+	width: 300px;
+	border: 1px  solid  #f40;
+	border-radius: 15px;
+	padding: 0 80px;
+    cursor:pointer;
+    font-size:12px;
+}
+.wrapper2 .box2 .box2-2 .box2-23{
+	font-size:3px;
+}
+/*第三行*/
+.wrapper3{
+	height:30px;
+	width:100%;
+    background-color: #f70;
+	z-index: 10000;
+}
+.box3
+{
+	margin: 0 auto;
+	height:30px;
+	width: 750px;
+	background-color: #f65;
+}
+.wrapper3  .box3 span{
+	display: inline-block;
+	float: left;
+	text-align:center;
+	height: 30px;
+	line-height: 30px;
+	width:100px;
+	background-color: #f40;
+	color:#fff;
+	font-size: 12px;
+}
+.wrapper3 .box3 ul.box3-1 li {
+    font-size: 12px;
+    margin:0 10px;
+    height: 30px;
+	line-height: 30px;
+}
+
+.wrapper3 .box3 ul.box3-1 li  a{
+	color: #fff;
+}
+.wrapper3 .box3 ul.box3-2 li {
+    font-size: 10px;
+    margin:0 10px;
+    height: 30px;
+	line-height: 30px;
+}
+.wrapper3 .box3 ul.box3-2 li  a{
+	color: #fff;
+}
+/*第四行*/
+.wrapper4{
+	height:700px;
+	width:100%;
+	background-color:#eee;
+	z-index: 10000;
+}
+.box4{
+	margin:0 auto;
+	height:360px;
+	width:750px;
+	background-color: #fff;
+}
+.box4-1{
+	float:left;
+	border:solid #f40;
+	width:97px;
+	height:350px;
+	background-color:#fff;
+}
+ul.box4-11  li {
+	float:none;
+	margin-left:-20px;
+}
+.box4-2{
+	background-color:#fff;
+	float: left;
+    margin:5px;
+}
+
+.box4-2 img{
+	margin-bottom:5px;
+	height:170px;
+	width:350px;
+}
+.box4-3{
+	background-color:#fff;
+	float:left;
+	margin:0 5px;
+}
+.box4-3 img{
+	padding-top: 5px;
+	height:170px;
+	width:83px;
+}
+
+.box4-4{
+	background-color:#fff;
+	float:left;
+	width:190px;
+}
+.box4-4 img{
+	width: 190px;
+	height: 100px;
+}
+.box4-4 .box4-41{
+	height:10px;
+}
+.box4-4 .box4-41 li{
+	margin: 0 5px;
+	width:30px;
+	border:solid #f40;
+	border-radius:5px;
+	background-color: #f40;
+	text-align: center;
+}
+.box4-4 .box4-41 a{
+	color: #fff;
+}
+
+.box4-4 .box4-42{
+	background-color:#fcc;
+	font-size:10px;
+	text-align:center;
+}
+.box4-4 .box4-42 a{
+	color: #f40;
+}
+.box4-4 .box4-43{
+	margin-top:-18px;
+	margin-left: -10px;
+}
+.box4-4 .box4-43 li{
+	margin:5px;
+	font-size: 10px;
+}
+.box4-4 .box4-43 li a{
+	text-decoration: underline;
+}
+
+table{
+
+	font-size: 10px;
+	border:1px solid #f40;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
