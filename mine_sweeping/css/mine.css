@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{  /*外壳,设置背景图片,相对屏幕定位*/
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(../img/bg.jpg);
+	background-size: 100% 100%;/*第一个值设置宽度，第二个值设置的高度*/
+}
+.start{     /*开始按钮*/
+	
+	width: 170px;
+	height: 140px;
+	position: absolute;
+	left: 50px;
+	background-image: url(../img/startGame.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.box{     /*500x500的棋盘*/
+	display: none;
+	width: 600px;
+	height: 600px;
+	/*倾斜:z轴上景深800px,x轴向屏幕里面翻转45度*/
+	transform: perspective(800px) rotateX(45deg);
+	/*水平居中*/
+	margin: 20px auto;
+	border-left:1px solid #B35f27;
+	border-top:1px solid #B35f27;
+	/*边框阴影 x轴y轴偏5px 阴影渲染5px 阴影颜色黑色 透明度0.3*/
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.flagBox{
+	display: none;
+	width: 200px;
+	height: 50px;
+	position:absolute;
+	top: 50px;
+	/*水平居中 left:50% margin-left:负宽度的一半*/
+	left: 50%;
+	margin-left: -100px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #333;
+}
+.alertBox{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: rgba(0,0,0,0.2);
+}
+.alertImg{
+	width: 600px;
+	height: 400px;
+	background-image: url(../img/over.jpg);
+	background-size: 100% 100%;
+	/*以下三行垂直居中的效果垂直居中*/
+	position: absolute;
+	left: 0;right: 0;top: 0;bottom: 0;
+	margin: auto;
+	border-radius: 20px;
+}
+.close{
+	
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/closeBtn.png);
+	background-size: 100% 100%;
+}
+.block{
+	box-sizing: border-box;
+	background-image: url(../img/cao.jpg);
+	background-size: 100% 100% ;
+	width: 40px;
+	height: 40px;
+	border-right:1px solid #B35f27;
+	border-bottom:1px solid #B35f27;
+	box-shadow: 0 0 4px #333;
+	float: left;
+}
+.flag{
+	background-image: url(../img/hongqi.jpg);
+	background-size:100% 100%;
+}
+.show{
+	background-image:url(../img/dilei.jpg) ;
+	background-size:100% 100%;
+}
+.num{
+	line-height: 40px;
+	text-align: center;
+	font-weight:bolder ;
+	font-size: 18px;
+	background: #ecd0a1;
+}
